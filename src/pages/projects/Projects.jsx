@@ -1,45 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Starfield from '../../components/starfield/Starfield';
-import { fetchProjects, fetchWebSkills, fetchOtherSkills } from '../../utils/getDatas';
 import ProjectCard from '../../components/cards/project/ProjectCard';
 import Layout from '../../components/layout/Layout';
+import webSkills from '../../datas/skillwebs.json';
+import otherSkills from '../../datas/skillothers.json';
+import projects from '../../datas/project.json';
 
 const Project = () => {
-    // Initializing three constants with empty array
-    const [projects, setProjects] = useState([]);
-    const [webSkills, setWebSkills] = useState([]);
-    const [otherSkills, setOtherSkills] = useState([]);
     const [enlargedCard, setEnlargedCard] = useState(null);
-
-    useEffect(() => {
-        // Projects datas
-        fetchProjects()
-        .then(data => {
-            setProjects(data);
-        })
-        .catch(error => {
-            console.error('Error fetching projects:', error);
-        });
-        
-        // Webskills datas
-        fetchWebSkills()
-        .then(data => {
-            setWebSkills(data);
-        })
-        .catch(error => {
-            console.error('Error fetching webskills:', error);
-        });
-        
-        // Otherskills datas
-        fetchOtherSkills()
-        .then(data => {
-            setOtherSkills(data);
-        })
-        .catch(error => {
-            console.error('Error fetching otherskills:', error);
-        });
-    }, 
-    []);
+    const [, setProjects] = useState([]);
 
     // Function for enlarged card on click and place THIS card on first position and moving user to THIS project
     const handleClick = async (project, event) => {

@@ -1,26 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import Starfield from '../../components/starfield/Starfield';
 import ProjectDescCard from '../../components/cards/project/ProjectDescCard';
 import ProjectScreenCard from '../../components/cards/project/ProjectScreenCard';
-import { fetchProject } from '../../utils/getDatas';
 import Layout from '../../components/layout/Layout';
+import project from '../../datas/project.json';
 
 const Project = () => {
     const { projectNameKey } = useParams();
-    const [project, setProject] = useState({});
-
-    useEffect(() => {
-        // Project datas
-        fetchProject(projectNameKey)
-        .then(data => {
-            setProject(data);
-        })
-        .catch(error => {
-            console.error('Error fetching projects:', error);
-        });
-    }, 
-    [projectNameKey]);
 
     return (
         <Layout>
@@ -31,9 +18,9 @@ const Project = () => {
                   </div>
                   <div className="project__info__list">
                       {/* Screen is the name of screen required in db */}
-                      <ProjectScreenCard screen="screen1" project={project} projectNameKey={projectNameKey} />
-                      <ProjectScreenCard screen="screen2" project={project} projectNameKey={projectNameKey} />
-                      <ProjectScreenCard screen="screen3" project={project} projectNameKey={projectNameKey} />
+                      <ProjectScreenCard screen="screen1" projectsData={project} projectNameKey={projectNameKey} />
+                      <ProjectScreenCard screen="screen2" projectsData={project} projectNameKey={projectNameKey} />
+                      <ProjectScreenCard screen="screen3" projectsData={project} projectNameKey={projectNameKey} />
                   </div>
             </main>
         </Layout>

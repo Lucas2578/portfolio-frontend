@@ -1,0 +1,37 @@
+[
+    {
+        "_id": "663b87b394f5dddefefbbe91",
+        "nameKey": "yml",
+        "icon": "fa-solid fa-file",
+        "level": 4,
+        "__v": 0
+    },
+    {
+        "_id": "663b87b394f5dddefefbbe90",
+        "nameKey": "writing",
+        "icon": "fa-solid fa-pen",
+        "level": 4,
+        "__v": 0
+    },
+    {
+        "_id": "663b87b394f5dddefefbbe8e",
+        "nameKey": "leadership",
+        "icon": "fa-solid fa-bars-progress",
+        "level": 3,
+        "__v": 0
+    },
+    {
+        "_id": "663b87b394f5dddefefbbe8f",
+        "nameKey": "projectmanagement",
+        "icon": "fa-solid fa-list-check",
+        "level": 3,
+        "__v": 0
+    },
+    {
+        "_id": "663b87b394f5dddefefbbe92",
+        "nameKey": "github",
+        "icon": "fa-brands fa-github",
+        "level": 2,
+        "__v": 0
+    }
+]

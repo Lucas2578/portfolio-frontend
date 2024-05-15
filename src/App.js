@@ -10,7 +10,7 @@ import { LanguageProvider } from './utils/language/LanguageContext';
 const App = () => {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-frontend">
       <LanguageProvider>
           <Routes>
             <Route path="/" element={<Home />} />

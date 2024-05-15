@@ -1,0 +1,133 @@
+[
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/booki/booki_2.webp",
+            "screen2": "assets/images/projects/booki/booki_3.webp",
+            "screen3": "assets/images/projects/booki/booki_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d2",
+        "nameKey": "booki",
+        "skillsRequire": [
+            "html",
+            "css"
+        ],
+        "imagePreviewPaths": "assets/images/projects/booki/booki_1.webp",
+        "githubLink": "https://github.com/Lucas2578/BookiP2",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/ohmyfood/ohmyfood_2.webp",
+            "screen2": "assets/images/projects/ohmyfood/ohmyfood_3.webp",
+            "screen3": "assets/images/projects/ohmyfood/ohmyfood_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d3",
+        "nameKey": "ohmyfood",
+        "skillsRequire": [
+            "html",
+            "sass"
+        ],
+        "imagePreviewPaths": "assets/images/projects/ohmyfood/ohmyfood_1.webp",
+        "githubLink": "https://github.com/Lucas2578/Ohmyfood-",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/sophiebluel/sophiebluel_2.webp",
+            "screen2": "assets/images/projects/sophiebluel/sophiebluel_3.webp",
+            "screen3": "assets/images/projects/sophiebluel/sophiebluel_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d4",
+        "nameKey": "sophiebluel",
+        "skillsRequire": [
+            "javascript"
+        ],
+        "imagePreviewPaths": "assets/images/projects/sophiebluel/sophiebluel_1.webp",
+        "githubLink": "https://github.com/Lucas2578/JavaScript-P3",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/menumaker/menumaker_2.webp",
+            "screen2": "assets/images/projects/menumaker/menumaker_3.webp",
+            "screen3": "assets/images/projects/menumaker/menumaker_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d5",
+        "nameKey": "menumaker",
+        "skillsRequire": [
+            "projectmanagement"
+        ],
+        "imagePreviewPaths": "assets/images/projects/menumaker/menumaker_1.webp",
+        "githubLink": "https://github.com/Lucas2578/P4-OpenclassRoom",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/ninacarducci/ninacarducci_2.webp",
+            "screen2": "assets/images/projects/ninacarducci/ninacarducci_3.webp",
+            "screen3": "assets/images/projects/ninacarducci/ninacarducci_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d6",
+        "nameKey": "ninacarducci",
+        "skillsRequire": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "imagePreviewPaths": "assets/images/projects/ninacarducci/ninacarducci_1.webp",
+        "githubLink": "https://github.com/Lucas2578/P5-OpenclassRooms",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/kasa/kasa_2.webp",
+            "screen2": "assets/images/projects/kasa/kasa_3.webp",
+            "screen3": "assets/images/projects/kasa/kasa_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d7",
+        "nameKey": "kasa",
+        "skillsRequire": [
+            "sass",
+            "javascript",
+            "react",
+            "nodejs"
+        ],
+        "imagePreviewPaths": "assets/images/projects/kasa/kasa_1.webp",
+        "githubLink": "https://github.com/Lucas2578/P6-OpenclassRooms",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/monvieuxgrimoire/monvieuxgrimoire_2.webp",
+            "screen2": "assets/images/projects/monvieuxgrimoire/monvieuxgrimoire_3.webp",
+            "screen3": "assets/images/projects/monvieuxgrimoire/monvieuxgrimoire_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d8",
+        "nameKey": "monvieuxgrimoire",
+        "skillsRequire": [
+            "nodejs",
+            "express",
+            "mongodb"
+        ],
+        "imagePreviewPaths": "assets/images/projects/monvieuxgrimoire/monvieuxgrimoire_1.webp",
+        "githubLink": "https://github.com/Lucas2578/P7-OpenclassRoom",
+        "__v": 0
+    },
+    {
+        "imagePaths": {
+            "screen1": "assets/images/projects/frenchsky/frenchsky_2.webp",
+            "screen2": "assets/images/projects/frenchsky/frenchsky_3.webp",
+            "screen3": "assets/images/projects/frenchsky/frenchsky_4.webp"
+        },
+        "_id": "6642acdd01dfc4db453b39d9",
+        "nameKey": "frenchsky",
+        "skillsRequire": [
+            "projectmanagement",
+            "leadership",
+            "writing",
+            "yml"
+        ],
+        "imagePreviewPaths": "assets/images/projects/frenchsky/frenchsky_1.webp",
+        "__v": 0
+    }
+]
