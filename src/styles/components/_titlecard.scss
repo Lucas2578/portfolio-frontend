@@ -1,0 +1,29 @@
+.cardstitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardtitle {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: "Roboto", sans-serif;
+    z-index: 1;
+
+    &__header {
+        background-color: $background-header-card-color;
+        border-bottom: 1px solid $border-card-color;
+        border-radius: 8px 8px 0px 0px;
+        align-items: center;
+        padding: 5px;
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10px
+    }
+}

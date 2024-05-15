@@ -1,0 +1,29 @@
+.nav {
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: $secondary-font-color;
+
+    &__list {
+        display: flex;
+        gap: 20px;
+
+        &__element {
+
+            &--link {
+
+                font-size: 16px;
+                filter:brightness(0.8);
+
+                &:hover {
+                    text-decoration: underline;
+                    filter:brightness(1);
+                }
+            }
+        }
+    }
+}
+
+.active {
+    filter:brightness(1);
+    text-decoration: underline;
+}

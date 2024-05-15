@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-font-color;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: $darkred-color;
+    padding: 80px;
+    min-height: 550px;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        padding: 80px 0px 80px 0px;
+    }
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.spacer {
+    height: 1px;
+    width: 35%;
+    border-top: 1px solid $spacer-color;
+
+    &__footer {
+        height: 1px;
+        border-top: 1px solid $spacer-color;
+        width: 15%;
+    }
+}
